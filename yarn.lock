@@ -4878,6 +4878,11 @@ jszip@^3.1.3:
     readable-stream "~2.3.6"
     set-immediate-shim "~1.0.1"
 
+kagekiri@^1.0.19:
+  version "1.0.19"
+  resolved "http://localhost:4873/kagekiri/-/kagekiri-1.0.19.tgz#e64adb99d547da92dff28d413ead8ca9ba494c63"
+  integrity sha512-p+JdrTpLpNb+yBXeIIPhAU5fPzXHH3A2WfdcQt0qBlQvTMeDTTALL/Q7xSmIVfwznXa/XFxH1ARASL6kJayt1Q==
+
 karma-chrome-launcher@~3.1.0:
   version "3.1.0"
   resolved "http://localhost:4873/karma-chrome-launcher/-/karma-chrome-launcher-3.1.0.tgz#805a586799a4d05f4e54f72a204979f3f3066738"

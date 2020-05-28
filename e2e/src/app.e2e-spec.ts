@@ -1,5 +1,6 @@
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
+import { querySelector, querySelectorAll } from 'kagekiri';
 
 describe('workspace-project App', () => {
   let page: AppPage;
@@ -8,9 +9,11 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it("should get div with class second from kagekiri queryselector", async() => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Kagekirie2e app is running!');
+    const secondDiv = querySelector('.second');
+    const divText = secondDiv.textContent;
+    expect(divText).toEqual('second');
   });
 
   afterEach(async () => {
