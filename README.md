@@ -1,4 +1,5 @@
 # Kagekirie2e
+### Note: This is just a demo application generated for posting query regarding e2e error while using kagekiri in angular application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
